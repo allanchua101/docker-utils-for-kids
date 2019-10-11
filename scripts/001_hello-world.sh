@@ -9,3 +9,7 @@
 # 4. The docker daemon (Server) then goes and retrieves the image from docker hub
 # 4. Docker daemon then runs an instance (Container) of the image.
 docker run hello-world
+
+# What is the lesson here?
+# 1. First time execution of docker image will take time as daemon needs to pull it from docker hub
+# 2. Succeeding executions of docker image will be faster as a copy of the image is now cached on your local image repository.
