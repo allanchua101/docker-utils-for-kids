@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  mariadb:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpasswordhere
+      MYSQL_DATABASE: my_maria_db
+      MYSQL_USER: boss
+      MYSQL_PASSWORD: bosspasswordhere
+    restart: on-failure
+    volumes:
+     - mariadb_data:/var/lib/mysql
+
+volumes:
+  mariadb_data:

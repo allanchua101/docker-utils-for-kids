@@ -2,7 +2,7 @@ version: "3"
 
 services:
   mysqldb:
-    image: mysql:8
+    image: mysql:latest
     restart: always
     environment:
       MYSQL_DATABASE: 'db'
