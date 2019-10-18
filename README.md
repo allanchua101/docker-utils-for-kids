@@ -19,6 +19,7 @@ docker logs CONTAINER_NAME_HERE
 
 **Supported Databases**
 
+- [CouchDB](./boilerplates/couchdb)
 - [Firebird](./boilerplates/firebird)
 - [MariaDB](./boilerplates/mariadb)
 - [MongoDB](./boilerplates/mongodb)

@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  couchdb:
+    image: "couchdb:latest" 
+    hostname: "couchdb"
+    container_name: "couchdb"
+    environment:
+      COUCHDB_USER: admin
+      COUCHDB_PASSWORD: password
+    ports:
+      - "5984:5984"
+    volumes:
+      - couchdb_data:/home/couchdb/data
+
+volumes:
+  couchdb_data:
