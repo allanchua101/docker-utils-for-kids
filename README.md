@@ -37,6 +37,11 @@ docker logs CONTAINER_NAME_HERE
 - [Redis](./databases/redis)
 - [SQL Server](./databases/sql-server)
 
+**TODO List**
+
+- Add Containerized Queue Systems
+- Add Containerized API Samples
+
 ## Happy Kid?
 
 I don't take "Thank you", buy me a :beer: instead by scanning QR code below :grin:
