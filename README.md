@@ -1,6 +1,6 @@
 # Docker and K8s for Kids
 
-A repository filled with scripts and boilerplates designed for Kids and Adults with IQ equal to IQ of kids.
+A repository filled with scripts and boilerplates designed for kids and adults with IQ of kids.
 
 ## Happy Kid?
 
