@@ -26,6 +26,7 @@ docker logs CONTAINER_NAME_HERE
 **Supported Databases**
 
 - [CouchDB](./boilerplates/couchdb)
+- [Elastic Search (Single-Node)](./boilerplates/elasticsearch)
 - [Firebird](./boilerplates/firebird)
 - [MariaDB](./boilerplates/mariadb)
 - [MongoDB](./boilerplates/mongodb)
