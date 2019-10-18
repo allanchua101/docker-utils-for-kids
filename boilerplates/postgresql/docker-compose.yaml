@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  pgdb:
+    image: "postgres:12-alpine"
+    container_name: "pgdb"
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdb_data:/var/lib/postgresql/data
+volumes:
+  pgdb_data:
