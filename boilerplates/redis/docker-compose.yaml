@@ -5,5 +5,5 @@ services:
     image: "redis:alpine"
     container_name: "redis-alpine"
     ports:
-    - "6379:6379"
+      - "6379:6379"
     restart: on-failure
