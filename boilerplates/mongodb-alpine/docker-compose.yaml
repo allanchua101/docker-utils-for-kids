@@ -3,6 +3,7 @@ version: "3"
 services:
   mongodb.alpine:
     image: mvertes/alpine-mongo
+    hostname: "mongodb.alpine"
     container_name: "mongodb.alpine"
     ports:
     - "27017:27017"

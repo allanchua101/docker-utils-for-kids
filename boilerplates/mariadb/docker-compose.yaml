@@ -3,6 +3,8 @@ version: "3"
 services:
   mariadb:
     image: mariadb:latest
+    hostname: "mariadb"
+    container_name: "mariadb"
     environment:
       MYSQL_ROOT_PASSWORD: rootpasswordhere
       MYSQL_DATABASE: my_maria_db

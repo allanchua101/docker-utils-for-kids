@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  firebird:
+    image: jacobalberty/firebird:2.5-sc
+    hostname: "firebird"
+    container_name: "firebird"
+    environment:
+      ISC_PASSWORD: "devs"
+    restart: on-failure
+    ports:
+      - "3050:3050"
+    volumes:
+      - firebird_data:/firebird/data
+
+volumes:
+  firebird_data:

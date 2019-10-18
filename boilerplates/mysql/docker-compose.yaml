@@ -3,6 +3,8 @@ version: "3"
 services:
   mysqldb:
     image: mysql:latest
+    hostname: "mysqldb"
+    container_name: "mysqldb"
     restart: always
     environment:
       MYSQL_DATABASE: 'db'

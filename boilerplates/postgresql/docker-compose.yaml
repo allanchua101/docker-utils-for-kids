@@ -3,6 +3,7 @@ version: "3"
 services:
   pgdb:
     image: "postgres:12-alpine"
+    hostname: "pgdb"
     container_name: "pgdb"
     ports:
       - "5432:5432"
