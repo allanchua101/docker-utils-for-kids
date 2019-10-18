@@ -2,7 +2,7 @@ version: "3"
 
 services:
   firebird:
-    image: jacobalberty/firebird:2.5-sc
+    image: jacobalberty/firebird:latest
     hostname: "firebird"
     container_name: "firebird"
     environment:
