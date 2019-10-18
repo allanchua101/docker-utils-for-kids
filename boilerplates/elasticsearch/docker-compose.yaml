@@ -3,11 +3,10 @@ version: "3"
 services:
   elasticsearch:
     image: "elasticsearch:7.4.0"
-        image: "couchdb:latest" 
     hostname: "elasticsearch"
     container_name: "elasticsearch"
     environment:
-      - "discovery.type": single-node
+      discovery.type: "single-node"
     ports:
       - "9200:9200"
       - "9300:9300"
