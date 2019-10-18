@@ -25,17 +25,17 @@ docker logs CONTAINER_NAME_HERE
 
 **Supported Databases**
 
-- [CouchDB](./boilerplates/couchdb)
-- [Elastic Search (Single-Node)](./boilerplates/elasticsearch)
-- [Firebird](./boilerplates/firebird)
-- [MariaDB](./boilerplates/mariadb)
-- [MongoDB](./boilerplates/mongodb)
-- [MongoDB Alpine](./boilerplates/mongodb-alpine)
-- [MySQL](./boilerplates/mysql)
-- [Neo4j](./boilerplates/neo4j)
-- [PostgreSQL](./boilerplates/postgresql)
-- [Redis](./boilerplates/redis)
-- [SQL Server](./boilerplates/sql-server)
+- [CouchDB](./databases/couchdb)
+- [Elastic Search (Single-Node)](./databases/elasticsearch)
+- [Firebird](./databases/firebird)
+- [MariaDB](./databases/mariadb)
+- [MongoDB](./databases/mongodb)
+- [MongoDB Alpine](./databases/mongodb-alpine)
+- [MySQL](./databases/mysql)
+- [Neo4j](./databases/neo4j)
+- [PostgreSQL](./databases/postgresql)
+- [Redis](./databases/redis)
+- [SQL Server](./databases/sql-server)
 
 ## Happy Kid?
 
