@@ -1,4 +1,4 @@
-# Docker and K8s for Kids
+# Docker Utils for Kids
 
 A repository filled with scripts and boilerplates designed for kids and adults with IQ of kids.
 
