@@ -21,7 +21,7 @@ docker logs CONTAINER_NAME_HERE
 
 - Repeatability of database setup
 - Ease of porting regardless of host system
-- Ease of installation via single command issuance
+- Ease of installation via single-line commands.
 
 **Supported Databases**
 
