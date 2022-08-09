@@ -1,6 +1,6 @@
 # Docker Utils for Kids
 
-A repository filled with scripts and boilerplates designed for kids and adults with IQ of kids.
+A repository filled with scripts and boilerplates designed for kids.
 
 ## Docker-Compose for Databases
 
